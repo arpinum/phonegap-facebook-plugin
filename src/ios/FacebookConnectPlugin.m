@@ -142,7 +142,7 @@
 {    
     self.userid = @"";
     
-    [FBSession openActiveSessionWithReadPermissions:nil
+    [FBSession openActiveSessionWithReadPermissions:@[@"basic_info"]
                                    allowLoginUI:NO
                               completionHandler:^(FBSession *session,
                                                   FBSessionState state,

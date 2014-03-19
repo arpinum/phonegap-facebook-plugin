@@ -142,7 +142,7 @@
         <header-file src="src/ios/headers/NSError+FBError.h" target-dir="facebook" />
         
         <!-- facebook resource bundles -->
-        <resource-file src="src/ios/resources/FacebookSDKResources.bundle" />
+
         <resource-file src="src/ios/resources/FBUserSettingsViewResources.bundle" />
         
         <!-- system frameworks -->

@@ -99,14 +99,17 @@
         </config-file>
 
         <!-- release facebook 3.5.2 framework -->
-        <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Release.a" framework="true" />
+        <source-file src="src/ios/frameworks/FacebookSDK-Release" framework="true" />
         
         <!-- debug facebook 3.5.2 framework  -->
-        <!-- <source-file src="src/ios/frameworks/FacebookSDK-3.5.2-Debug.a" framework="true" /> -->
+        <!-- <source-file src="src/ios/frameworks/FacebookSDK-Debug" framework="true" /> -->
 
         <!-- facebook header files -->
         <header-file src="src/ios/headers/FBAccessTokenData.h" target-dir="facebook" />
         <header-file src="src/ios/headers/FBAppCall.h" target-dir="facebook" />
+		<header-file src="src/ios/headers/FBShareDialogPhotoParams.h" target-dir="facebook" />
+		
+		<header-file src="src/ios/headers/FBAppEvents.h" target-dir="facebook" />
         <header-file src="src/ios/headers/FBAppLinkData.h" target-dir="facebook" />
         <header-file src="src/ios/headers/FBCacheDescriptor.h" target-dir="facebook" />
         <header-file src="src/ios/headers/FBDialogs.h" target-dir="facebook" />
